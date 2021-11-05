@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <form class="form">
+         <h1>Registrar Estudiante</h1>
+         <input type="text" name="name" placeholder="Nombre del estudiante" />
+         <input type="text" name="code" placeholder="Código del estudiante" />
+         <input type="text" name="course" placeholder="Curso" />
+         <button>Matricular</button>
+      </form>
+
+      <article class="table">
+         <section>
+            <h1>Sin Bono</h1>
+            <div class="normal">
+               <div class="card"></div>
+            </div>
+         </section>
+         <section>
+            <h1>Bono Plata +0,3</h1>
+            <div class="silver"></div>
+         </section>
+         <section>
+            <h1>Bono Oro +0,5</h1>
+            <div class="gold"></div>
+         </section>
+      </article>
+   </body>
+
+   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+   <script src="./js/Firebase.js"></script>
+
+   <script src="./js/Card.js"></script>
+   <script src="./js/Main.js"></script>
+</html>
